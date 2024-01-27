@@ -1,11 +1,29 @@
 GET http://localhost:3000/
 ###
+
+GET http://localhost:3000/scraping
+
+### 
 POST http://localhost:3000/
 Content-Type: application/json
 
 {
-     "titulo": "ksdjlksd",
+     "titulo": "fe",
      "img": "lskjdflsdkjf",
      "enlace": "lksjdflks"
 }
 
+###
+
+DELETE http://localhost:3000/2
+
+###
+
+PUT http://localhost:3000/2
+Content-Type: application/json
+
+{
+     "titulo": "fe",
+     "img": "lskjdflsdkjf",
+     "enlace": "lksjdflks"
+}
